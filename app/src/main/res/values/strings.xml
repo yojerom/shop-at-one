@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Shop@one</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close"></string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="logo">Logo</string>
+    <string name="email_address">Email Address</string>
+    <string name="keyword">Enter keyword</string>
+    <string name="brand">Enter brand</string>
+    <string name="from">from ($)</string>
+    <string name="to">to ($)</string>
+    <string name="sort">sort order</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="location">Location</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="continue1">Continue</string>
+    <string name="agreement">I agree to the Shop@one Terms Of Services and Private Policy</string>
+    <string name="PREF_FILE">APP_PREF_FILE</string>
+    <string name="userid">userID</string>
+    <string name="logout">Logout</string>
+    <string name="new_user">new user?</string>
+    <string name="usersss">Sathurshan</string>
+    <string name="online">online</string>
+    <string name="profile">Profile</string>
+    <string name="sathurshan">Sathurshan</string>
+    <string name="ebay">Ebay</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="button">Button</string>
+    <string name="msrp">Msrp</string>
+    <string name="productname">ProductName</string>
+    <string name="salesprice">Salesprice</string>
+    <string name="brandname">brandname</string>
+    <string name="productimage">ProductImage</string>
+    <string name="search">Search</string>
+    <string name="trending">Trending</string>
+    <string name="image">image</string>
+    <string name="walmart">Walmart</string>
+    <string name="title_activity_search_result">search_result</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

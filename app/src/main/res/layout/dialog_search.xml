@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/search"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/searchtitle"
+        />
+
+    <EditText
+        android:id="@+id/keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="@string/keyword"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="-10dp"
+        android:ems="10"
+        android:hint="@string/brand"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/lowprice"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:ems="10"
+        android:hint="@string/from"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/highprice"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_160sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_165sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_marginTop="-55dp"
+        android:ems="10"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search" />
+
+</LinearLayout>
